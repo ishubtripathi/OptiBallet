@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&family=Roboto+Flex:wght@300;400;500;900&family=Roboto+Slab&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("/img/voting.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width:85%;
+    margin: auto;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color:#eb7920;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding:0px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: #eb7920;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: #eb7920;
+}
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article h1{
+    font-size: 55px;
+    white-space: nowrap;
+    color: #fff;
+    letter-spacing: 0.5vh;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.article p{
+    font-size: 30px;
+    color: #7e7e7e;
+    line-height: 1.;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color: #FFF;
+    padding: 12px 25px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+}
+.article .btn:hover{
+    background-color: #4399fa;
+    transition: 0.5s ease ;
+}
